@@ -1,0 +1,23 @@
+// Place all the styles related to the recipes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap";
+
+$white_opaque: rgba(250, 250, 250, .3);
+
+body {
+ 	height: 100%;
+  background: -webkit-linear-gradient(60deg, #4CB8C4 10%, #EAECC6 100%);
+  background:    -moz-linear-gradient(60deg, #4CB8C4 10%, #EAECC6 100%);
+  background:     -ms-linear-gradient(60deg, #4CB8C4 10%, #EAECC6 100%);
+  background:      -o-linear-gradient(60deg, #4CB8C4 10%, #EAECC6 100%);
+  background:         linear-gradient(60deg, #4CB8C4 10%, #EAECC6 100%);
+  font-family: 'Lato', sans-serif;
+}
+
+
+.even {
+	background: $white_opaque;
+}
+
